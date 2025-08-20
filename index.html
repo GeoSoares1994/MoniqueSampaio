@@ -9,6 +9,8 @@
     <meta name="author" content="Geovane Soares Santos">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="imagex/png" href="./img/logo-crua-branca.ico">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <script></script>
     <title>Monike Sampaio Studio</title>
@@ -36,7 +38,7 @@
     <main>
 
         <section>
-            <div class="container1">
+            <div data-aos="fade-up" class="container1">
 
                 <div class="informations">
                     <h1>Venha conhecer nossos Serviços</h1>
@@ -57,16 +59,16 @@
         </section>
 
         <section>
-            <div class="container2">
+            <div data-aos="fade-down" class="container2">
 
-                <div class="titulo">
+                <div  class="titulo">
                     <h1>Serviços que oferecemos</h1>
                     <p>Veja alguns serviços que fazemos aqui,
                         assim você pode escolher o melhor pra si mesma</p>
                 </div>
 
                 <div class="caixa1">
-                    <img src="./img/corte-de-cabelo.jpg">
+                    <img data-aos="zoom-in" src="./img/corte-de-cabelo.jpg">
                     <h2>Corte de Cabelo</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Iusto quos in dolore exercitationem debitis doloremque voluptas
@@ -74,7 +76,7 @@
                         sint numquam sapiente vitae obcaecati!</p>
                 </div>
                 <div class="caixa1">
-                    <img src="./img/lavagem-de-cabelo.jpg">
+                    <img data-aos="zoom-in" src="./img/lavagem-de-cabelo.jpg">
                     <h2>Lavagem de Cabelo</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Iusto quos in dolore exercitationem debitis doloremque voluptas
@@ -82,7 +84,7 @@
                         sint numquam sapiente vitae obcaecati!</p>
                 </div>
                 <div class="caixa1">
-                    <img src="./img/relax.jpg">
+                    <img data-aos="zoom-in" src="./img/relax.jpg">
                     <h2>Relax e spar</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Iusto quos in dolore exercitationem debitis doloremque voluptas
@@ -90,7 +92,7 @@
                         sint numquam sapiente vitae obcaecati!</p>
                 </div>
                 <div class="caixa1">
-                    <img src="./img/massagem-corporal.jpg">
+                    <img data-aos="zoom-in" src="./img/massagem-corporal.jpg">
                     <h2>Massagem corporal</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Iusto quos in dolore exercitationem debitis doloremque voluptas
@@ -107,11 +109,11 @@
 
             </div>
             <div class="galeria">
-                <img src="./img/Galeria-01.jpg">
-                <img src="./img/Galeria-02.jpg">
-                <img src="./img/Galeria-03.jpg">
-                <img src="./img/Galeria-04.jpg">
-                <img src="./img/Galeria-05.jpg">
+                <img data-aos="zoom-out" src="./img/Galeria-01.jpg">
+                <img data-aos="zoom-out" src="./img/Galeria-02.jpg">
+                <img data-aos="zoom-out" src="./img/Galeria-03.jpg">
+                <img data-aos="zoom-out" src="./img/Galeria-04.jpg">
+                <img data-aos="zoom-out" src="./img/Galeria-05.jpg">
             </div>
         </section>
 
@@ -148,4 +150,7 @@
 </body>
 <script href="./script.js"></script>
 
+    <script>
+        AOS.init();
+    </script>
 </html>
