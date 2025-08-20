@@ -1,0 +1,408 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.menu-link {
+    display: none;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-content a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+
+.menu-content a:hover {
+    text-decoration: underline;
+}
+
+.container1 {
+    width: 80%;
+    margin: 10vh auto;
+    display: flex;
+}
+
+.informations {
+    width: 30vw;
+    margin: 0 30px;
+    text-align: center;
+    background-color: transparent;
+    padding: 30px;
+}
+
+.informations h1 {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    margin-top: 200px;
+}
+
+.informations p {
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.informations button {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin-top: 75px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+.informations button:hover {
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+    transition: 0.5s;
+}
+
+.video-ambiente video {
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.container2 {
+    width: 80%;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    width: 100%;
+}
+
+.titulo h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.titulo p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.caixa1 {
+    width: 15vw;
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    border: white 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 10px;
+}
+
+.caixa1 img {
+    width: 100px;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.caixa1 h2,
+p {
+    margin: 10px 0;
+    color: white;
+}
+
+.container3 {
+    width: 80%;
+    margin: 50px auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    border: white 1px solid;
+}
+
+.container3 h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.container3 p {
+
+    color: white;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+form input {
+    border-radius: 5px;
+    margin: 5px 0;
+    border: none;
+    height: 40px;
+}
+
+form textarea {
+    border-radius: 5px;
+    margin: 5px 0;
+    max-width: 100%;
+    max-height: 20vh;
+}
+
+form button {
+    background-color: black;
+    border: white 2px solid;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+form button:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    height: 10vh;
+    color: white;
+}
+
+.texto-galeria {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.galeria {
+    width: 50%;
+    display: flex;
+    margin: 100px auto;
+    text-align: center;
+    border: 1px solid white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.galeria img {
+    width: 150px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.sobre-nos {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sobre-nos h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.sobre-nos p {
+    font-size: 20px;
+}
+
+strong {
+    color: yellowgreen;
+}
+
+.sobre-nos button {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin-top: 75px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+.sobre-nos button:hover {
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+    transition: 0.5s;
+}
+
+@media (max-width: 450px) {
+
+    .header {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .body {
+        margin: 0 auto;
+    }
+
+    .menu {
+        width: 30%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .menu-link {
+        display: block;
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        margin: 0 auto;
+    }
+
+    .menu-content {
+        display: none;
+        text-decoration: underline;
+        padding: 12px 16px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .menu-content a {
+        color: white;
+        text-align: center;
+        display: block;
+        background-color: black;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .menu:hover .menu-content {
+        display: block;
+    }
+
+    .container1 {
+        margin: 10px auto;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .informations {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .informations button {
+        text-align: center;
+        margin: 50px auto;
+    }
+    .sobre-nos{
+        width: 80%;
+    }
+
+    .video-ambiente {
+        width: 80%;
+        margin: 50px auto;
+
+    }
+
+    .galeria {
+        width: 80%;
+    }
+
+    .galeria img {
+        width: 50px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .container2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .caixa1 {
+        width: 100%;
+    }
+    .caixa1 img{
+        border-radius: 10px;
+    }
+    .galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .texto-galeria {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .texto-galeria h1 {
+        font-size: 40px;
+    }
+
+    .video-ambiente video {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sobre-nos p {
+        font-size: 18px;
+    }
+
+    form {
+        width: 100%;
+        margin: 0 auto;
+    }
+    form input{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .info-contato h1 {
+        font-size: 30px;
+    }
+
+    .info-contato p {
+        font-size: 20px;
+    }
+}
