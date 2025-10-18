@@ -262,7 +262,42 @@ strong {
     transition: 0.5s;
 }
 
-@media (max-width: 450px) {
+.Aviso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    /* Fica por cima da página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* Ocupa a tela toda */
+    background: rgba(0, 0, 0, 0.6);
+    /* Fundo escurecido opcional */
+    color: white;
+    z-index: 1000;
+}
+
+.button-Aviso {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-Aviso:hover {
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+    transition: 0.5s;
+}
+
+@media (max-width: 720px) {
 
     .header {
         width: 80%;
@@ -329,7 +364,8 @@ strong {
         text-align: center;
         margin: 50px auto;
     }
-    .sobre-nos{
+
+    .sobre-nos {
         width: 80%;
     }
 
@@ -358,9 +394,11 @@ strong {
     .caixa1 {
         width: 100%;
     }
-    .caixa1 img{
+
+    .caixa1 img {
         border-radius: 10px;
     }
+
     .galeria {
         display: flex;
         flex-wrap: wrap;
@@ -390,7 +428,8 @@ strong {
         width: 100%;
         margin: 0 auto;
     }
-    form input{
+
+    form input {
         width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
@@ -405,4 +444,244 @@ strong {
     .info-contato p {
         font-size: 20px;
     }
+
+    .Aviso {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        /* Fica por cima da página */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        /* Ocupa a tela toda */
+        background: rgba(0, 0, 0, 0.6);
+        /* Fundo escurecido opcional */
+        color: white;
+        z-index: 1000;
+    }
+
+    .button-Aviso {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        background-color: black;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .button-Aviso:hover {
+        background-color: black;
+        color: white;
+        border: white 2px solid;
+        transition: 0.5s;
+    }
+}
+
+
+
+/*tablet*/
+@media (max-width: 1025px) {
+
+    .header {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .body {
+        margin: 0 auto;
+    }
+
+    .menu {
+        width: 30%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .menu-link {
+        display: block;
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        margin: 0 auto;
+    }
+
+    .menu-content {
+        display: none;
+        text-decoration: underline;
+        padding: 12px 16px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .menu-content a {
+        color: white;
+        text-align: center;
+        display: block;
+        background-color: black;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .menu:hover .menu-content {
+        display: block;
+    }
+
+    .container1 {
+        margin: 10px auto;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .informations {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .informations button {
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .sobre-nos {
+        width: 80%;
+    }
+
+    .video-ambiente {
+        width: 80%;
+        margin: 50px auto;
+
+    }
+
+    .galeria {
+        width: 80%;
+    }
+
+    .galeria img {
+        width: 500px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .container2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .caixa1 {
+        width: 100%;
+    }
+
+    .caixa1 img {
+        border-radius: 10px;
+        width: 50%;
+    }
+
+    .caixa1 h2 {
+        text-align: center;
+        font-size: 48px;
+
+    }
+
+    .caixa1 p {
+        text-align: center;
+        font-size: 24px;
+
+    }
+
+    .galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .galeria img {
+        width: 40%;
+    }
+
+    .texto-galeria {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .texto-galeria h1 {
+        font-size: 40px;
+    }
+
+    .video-ambiente video {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sobre-nos p {
+        font-size: 18px;
+    }
+
+    form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    form input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .info-contato h1 {
+        font-size: 30px;
+    }
+
+    .info-contato p {
+        font-size: 20px;
+    }
+
+    .Aviso {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        /* Fica por cima da página */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        /* Ocupa a tela toda */
+        background: rgba(0, 0, 0, 0.6);
+        /* Fundo escurecido opcional */
+        color: white;
+        z-index: 1000;
+    }
+
+    .button-Aviso {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        background-color: black;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .button-Aviso:hover {
+        background-color: black;
+        color: white;
+        border: white 2px solid;
+        transition: 0.5s;
+    }
+
 }
