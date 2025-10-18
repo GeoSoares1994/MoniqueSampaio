@@ -262,7 +262,7 @@ strong {
     transition: 0.5s;
 }
 
-.Aviso {
+.aviso {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,7 +280,7 @@ strong {
     z-index: 1000;
 }
 
-.button-Aviso {
+.button-aviso {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
@@ -290,7 +290,7 @@ strong {
     border-radius: 5px;
 }
 
-.button-Aviso:hover {
+.button-aviso:hover {
     background-color: black;
     color: white;
     border: white 2px solid;
@@ -445,7 +445,8 @@ strong {
         font-size: 20px;
     }
 
-    .Aviso {
+    .aviso {
+        color: white;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -463,7 +464,7 @@ strong {
         z-index: 1000;
     }
 
-    .button-Aviso {
+    .button-aviso {
         margin-top: 20px;
         padding: 10px 20px;
         border: none;
@@ -473,7 +474,7 @@ strong {
         border-radius: 5px;
     }
 
-    .button-Aviso:hover {
+    .button-aviso:hover {
         background-color: black;
         color: white;
         border: white 2px solid;
